@@ -4,6 +4,8 @@ class Program
 {
     public static void Main(string[] args)
     {
+        float a = 0;
+        float b =0;
         Console.WriteLine("Calculadora");
     }
   static float soma()
