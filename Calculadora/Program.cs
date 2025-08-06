@@ -73,6 +73,7 @@ class Program
   }
     static float multiplicação()
   {
+        Resultado = a*b;
   }
     static float porcentagem()
   {
