@@ -68,6 +68,7 @@ class Program
   }
     static float divisão()
   {
+        Resultado = a / b;
   }
     static float multiplicação()
   {
