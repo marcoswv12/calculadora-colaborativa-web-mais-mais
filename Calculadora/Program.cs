@@ -69,6 +69,7 @@ class Program
   }
     static void divisão()
   {
+        Resultado = a / b;
   }
     static void multiplicação()
   {
