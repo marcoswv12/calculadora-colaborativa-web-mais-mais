@@ -61,6 +61,7 @@ class Program
     
   static void soma()
   {
+      Resultado = a + b;
   }
     static void subtração()
   {
