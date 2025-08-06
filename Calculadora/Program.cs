@@ -4,6 +4,9 @@ class Program
 {
     public static void Main(string[] args)
     {
+
+        float Resultado = 0;
+        
         float a = 0;
         float b =0;
         
@@ -22,26 +25,32 @@ class Program
         if(operação == '+')
         {
             soma();
+            Console.WriteLine(Resultado);
         }
         else if(operação == '-')
         {
             subtração();
+            Console.WriteLine(Resultado);
         }
         else if(operação == '*')
         {
             divisão();
+            Console.WriteLine(Resultado);
         }
         else if(operação == '/')
         {
             divisão();
+            Console.WriteLine(Resultado);
         }
         else if(operação == '%')
         {
             porcentagem();
+            Console.WriteLine(Resultado);
         }
         else if(operação == '^')
         {
             potencia();
+            Console.WriteLine(Resultado);
         }
         else
         {
