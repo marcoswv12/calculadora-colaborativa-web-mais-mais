@@ -72,6 +72,7 @@ class Program
   }
     static void multiplicação()
   {
+        Resultado = a * b;
   }
     static void porcentagem()
   {
