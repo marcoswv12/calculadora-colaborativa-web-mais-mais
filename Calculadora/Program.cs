@@ -65,10 +65,10 @@ class Program
   }
     static void subtração()
   {
+      Resultado = a - b;  
   }
     static void divisão()
   {
-        Resultado = a - b;
   }
     static void multiplicação()
   {
