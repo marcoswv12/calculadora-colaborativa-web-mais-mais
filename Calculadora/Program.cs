@@ -81,7 +81,7 @@ class Program
   }
     static void potencia()
   {
-      Resultado = Math.Pow(a, b);   
+      Resultado = MathF.Pow(a, b);   
   }
   
 }
