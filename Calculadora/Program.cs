@@ -69,19 +69,19 @@ class Program
   }
     static void divisão()
   {
-        Resultado = a / b;
+      Resultado = a / b;
   }
     static void multiplicação()
   {
-     Resultado = a * b;
+      Resultado = a * b;
   }
     static void porcentagem()
   {
-     Resultado = (a * b)/100;
+      Resultado = (a * b)/100;
   }
     static void potencia()
   {
-     Resultado = a ^ b;    
+      Resultado = a ^ b;    
   }
   
 }
