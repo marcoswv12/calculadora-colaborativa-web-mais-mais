@@ -1,26 +1,22 @@
 using System;
-
 class Program
 {
+    static float Resultado = 0;
+    static float a = 0;
+    static float b = 0;
+
     public static void Main(string[] args)
     {
-
-        float Resultado = 0;
-        
-        float a = 0;
-        float b =0;
-        
-        
         Console.WriteLine("Calculadora");
         Console.WriteLine("Digite o seu primeiro valor:");
-        a = Console.ReadLine();
+        a = float.Parse(Console.ReadLine());
         
        
         Console.WriteLine("Digite o simbolo da sua operação, (+,-,*,/,%,^):");
-        char operação = Console.ReadLine(); 
+        char operação = char.Parse(Console.ReadLine()); 
         
         Console.WriteLine("Digite o seu segundo valor:");
-        b = Console.ReadLine();
+        b = float.Parse(Console.ReadLine());
         
         if(operação == '+')
         {
@@ -42,6 +38,7 @@ class Program
             divisão();
             Console.WriteLine(Resultado);
         }
+
         else if(operação == '%')
         {
             porcentagem();
@@ -62,22 +59,22 @@ class Program
 
     }
     
-  static float soma()
+  static void soma()
   {
   }
-    static float subtração()
+    static void subtração()
   {
   }
-    static float divisão()
+    static void divisão()
   {
   }
-    static float multiplicação()
+    static void multiplicação()
   {
   }
-    static float porcentagem()
+    static void porcentagem()
   {
   }
-    static float potencia()
+    static void potencia()
   {
   }
   
