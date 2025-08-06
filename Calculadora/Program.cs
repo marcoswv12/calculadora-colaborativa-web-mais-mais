@@ -55,7 +55,9 @@ class Program
         else
         {
             Console.WriteLine("Operação invalida.");
+            return;
         }
+       
 
 
     }
