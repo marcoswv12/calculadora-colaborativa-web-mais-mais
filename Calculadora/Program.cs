@@ -62,6 +62,7 @@ class Program
     
   static float soma()
   {
+      Resultado = a + b;
   }
     static float subtração()
   {
