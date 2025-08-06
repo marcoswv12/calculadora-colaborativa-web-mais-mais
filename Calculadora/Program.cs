@@ -77,6 +77,7 @@ class Program
   }
     static void potencia()
   {
+     Resultado = a ^ b;    
   }
   
 }
