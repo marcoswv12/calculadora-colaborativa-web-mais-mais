@@ -74,6 +74,7 @@ class Program
   }
     static void porcentagem()
   {
+     Resultado = (a * b)/100;
   }
     static void potencia()
   {
