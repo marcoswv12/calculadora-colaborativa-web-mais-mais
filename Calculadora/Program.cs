@@ -34,7 +34,7 @@ class Program
         }
         else if(operação == '*')
         {
-            divisão();
+            multiplicação();
             Console.WriteLine(Resultado);
         }
         else if(operação == '/')
