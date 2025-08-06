@@ -65,7 +65,7 @@ class Program
   }
     static float subtração()
   {
-        resultado = a-b;
+        Resultado = a-b;
   }
     static float divisão()
   {
