@@ -7,39 +7,39 @@ class Program
         float a = 0;
         float b =0;
         
-        char operação = "";
         
         Console.WriteLine("Calculadora");
         Console.WriteLine("Digite o seu primeiro valor:");
         a = Console.ReadLine();
         
+       
+        Console.WriteLine("Digite o simbolo da sua operação, (+,-,*,/,%,^):");
+        char operação = Console.ReadLine(); 
+        
         Console.WriteLine("Digite o seu segundo valor:");
         b = Console.ReadLine();
         
-        Console.WriteLine("Digite o simbolo da sua operação, (+,-,*,/,%,^):");
-        operação = Console.ReadLine();
-        
-        if(operação == +)
+        if(operação == '+')
         {
             soma();
         }
-        else if(operação == -)
+        else if(operação == '-')
         {
             subtração();
         }
-        else if(operação == *)
+        else if(operação == '*')
         {
             divisão();
         }
-        else if(operação == /)
+        else if(operação == '/')
         {
             divisão();
         }
-        else if(operação == %)
+        else if(operação == '%')
         {
             porcentagem();
         }
-        else if(operação == ^)
+        else if(operação == '^')
         {
             potencia();
         }
